@@ -1,10 +1,10 @@
 import React from 'react'
 import withLayout from './withLayout'
 
-function Home() {
+function Blog() {
   return (
  <div>
-   <h1>Welcome To My HomePage</h1> 
+   <h1>My BlogPage</h1> 
     <div>
     <p> in the reign of his great-grandmother Queen Victoria, 
     he was named Albert at birth after his great-grandfather Albert,
@@ -46,4 +46,4 @@ function Home() {
   )
 }
 
-export default withLayout(Home)
+export default withLayout(Blog)
