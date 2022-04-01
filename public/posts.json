@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "1.png",
+    "slug": "post-number-one",
+    "title": "So, what causes it?",
+    "extract":"Say you go paddleboarding for the first time. You've never done anything like it, but you suddenly have a distinct memory of making the same arm motions, under the same blue sky, with the same waves lapping at your feet.",
+    "body":"Researchers can't easily study déjà vu, partially because it happens without warning and often in people without underlying health concerns that might play a part. What's more, déjà vu experiences tend to end as quickly as they begin. The sensation may be so fleeting that if you don't know much about déjà vu, you may not even realize what just happened."
+  } , 
+  {
+    "id": 1,
+    "image": "2.png",
+    "slug": "post-number-one",
+    "title": "So, what causes it?",
+    "extract":"Say you go paddleboarding for the first time. You've never done anything like it, but you suddenly have a distinct memory of making the same arm motions, under the same blue sky, with the same waves lapping at your feet.",
+    "body":"Researchers can't easily study déjà vu, partially because it happens without warning and often in people without underlying health concerns that might play a part. What's more, déjà vu experiences tend to end as quickly as they begin. The sensation may be so fleeting that if you don't know much about déjà vu, you may not even realize what just happened."
+  },
+  {
+    "id": 1,
+    "image": "3.png",
+    "slug": "post-number-one",
+    "title": "So, what causes it?",
+    "extract":"Say you go paddleboarding for the first time. You've never done anything like it, but you suddenly have a distinct memory of making the same arm motions, under the same blue sky, with the same waves lapping at your feet.",
+    "body":"Researchers can't easily study déjà vu, partially because it happens without warning and often in people without underlying health concerns that might play a part. What's more, déjà vu experiences tend to end as quickly as they begin. The sensation may be so fleeting that if you don't know much about déjà vu, you may not even realize what just happened."
+  }  
+]
