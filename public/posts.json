@@ -1,26 +1,19 @@
 [
-  {
-    "id": 1,
-    "image": "1.png",
-    "slug": "post-number-one",
-    "title": "So, what causes it?",
-    "extract":"Say you go paddleboarding for the first time. You've never done anything like it, but you suddenly have a distinct memory of making the same arm motions, under the same blue sky, with the same waves lapping at your feet.",
-    "body":"Researchers can't easily study déjà vu, partially because it happens without warning and often in people without underlying health concerns that might play a part. What's more, déjà vu experiences tend to end as quickly as they begin. The sensation may be so fleeting that if you don't know much about déjà vu, you may not even realize what just happened."
-  } , 
-  {
-    "id": 1,
-    "image": "2.png",
-    "slug": "post-number-one",
-    "title": "So, what causes it?",
-    "extract":"Say you go paddleboarding for the first time. You've never done anything like it, but you suddenly have a distinct memory of making the same arm motions, under the same blue sky, with the same waves lapping at your feet.",
-    "body":"Researchers can't easily study déjà vu, partially because it happens without warning and often in people without underlying health concerns that might play a part. What's more, déjà vu experiences tend to end as quickly as they begin. The sensation may be so fleeting that if you don't know much about déjà vu, you may not even realize what just happened."
-  },
-  {
-    "id": 1,
-    "image": "3.png",
-    "slug": "post-number-one",
-    "title": "So, what causes it?",
-    "extract":"Say you go paddleboarding for the first time. You've never done anything like it, but you suddenly have a distinct memory of making the same arm motions, under the same blue sky, with the same waves lapping at your feet.",
-    "body":"Researchers can't easily study déjà vu, partially because it happens without warning and often in people without underlying health concerns that might play a part. What's more, déjà vu experiences tend to end as quickly as they begin. The sensation may be so fleeting that if you don't know much about déjà vu, you may not even realize what just happened."
-  }  
+    {
+        "id": 1,
+        "image": "1.png",
+        "slug": "post-number-one",
+        "title": "So what is Anemia",
+        "extract": "Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues.",
+        "body": "Having anemia, also referred to as low hemoglobin, can make you feel tired and weak. There are many forms of anemia, each with its own cause. Anemia can be temporary or long term and can range from"
+    },
+    {
+        "id": 2,
+        "image": "1.png",
+        "slug": "post-number-two",
+        "title": "So what is Anemia",
+        "extract": "Anemia is a condition in which you lack enough healthy red blood cells to carry adequate oxygen to your body's tissues.",
+        "body": "Having anemia, also referred to as low hemoglobin, can make you feel tired and weak. There are many forms of anemia, each with its own cause. Anemia can be temporary or long term and can range from"
+    }
+    
 ]
