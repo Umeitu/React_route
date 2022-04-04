@@ -1,29 +1,36 @@
 import React from 'react'
-import withLayout from './withLayout'
+import withLayout from  './withLayout'
+import { useContext } from 'react'
+import { AboutContext } from '../context/AboutContext'
 
 function About() {
+  const {about} = useContext(AboutContext)
   return (
-    <div>
-    <h1>About Me</h1>
-    <div>
-    <p>A home, or domicile, is a space used as a permanent or semi-permanent 
-    residence for one or many humans. It is a fully or
-     semi sheltered space and can have both interior and
-      exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces for work and leisure such as remote working, studying and playing.</p>
-    
-     <p>A home, or domicile, is a space used as a
-      permanent or semi-permanent residence for one or 
-      many humans. It is a fully or semi sheltered space and can have both interior and exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces for work and 
-     leisure such as remote working, studying and playing.</p>
-    
-     <p>A home, or domicile, is a space used as a permanent or semi-permanent
-      residence for one or many humans. It is a fully or semi sheltered space 
-      and can have both interior and exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces
-      for work and leisure such as remote working, studying and playing.</p>
+    <div styles={{maxWidth:"700px", margin:"auto",padding:"200px0"}}>
+      <h2>About Me</h2>
+
+    <div style={{marginTop:"10px"}}>
+    <h3>Name</h3>
+    <p>{about.name}</p>
     </div>
-    
+
+    <div style={{marginTop:"10px"}}>
+    <h3>Bio</h3>
+    <p>{about.bio}</p>
+    </div>
+
+    <div style={{marginTop:"10px"}}>
+    <h3>Hobbies</h3> 
+    { about.hobbies.map((hobby)=>(
+    <p key={hobby} style={{display:"inline-block",marginRight:"10px"}}>
+    {hobby}
+    </p>
+    ))}
+    </div>
+
+
     </div>
   )
 }
 
-export default withLayout(About)
+export default withLayout (About)

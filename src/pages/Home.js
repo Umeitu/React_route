@@ -1,29 +1,24 @@
 import React from 'react'
-import withLayout from './withLayout'
+import withLayout from "./withLayout"
+import { useNavigate } from 'react-router-dom'
 
 function Home() {
+  const navigate = useNavigate()
+
   return (
     <div>
-    <h1>Welcome to my HomePage</h1>
-    <div>
-    <p>A home, or domicile, is a space used as a permanent or semi-permanent 
-    residence for one or many humans. It is a fully or
-     semi sheltered space and can have both interior and
-      exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces for work and leisure such as remote working, studying and playing.</p>
-    
-     <p>A home, or domicile, is a space used as a
-      permanent or semi-permanent residence for one or 
-      many humans. It is a fully or semi sheltered space and can have both interior and exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces for work and 
-     leisure such as remote working, studying and playing.</p>
-    
-     <p>A home, or domicile, is a space used as a permanent or semi-permanent
-      residence for one or many humans. It is a fully or semi sheltered space 
-      and can have both interior and exterior aspects to it. Homes provide sheltered spaces for instance rooms, where domestic activity can be performed such as sleeping, preparing food, eating and hygiene as well as providing spaces
-      for work and leisure such as remote working, studying and playing.</p>
-    </div>
-    
-    </div>
+    <div className='banner'>
+    <h1>Welcome to my webpage</h1>
+    <p>this is a website about myself. i love programming and i am willing to teach anyone who wishes to learn as well</p>
+<div className='actiona-wrap'>
+<button className='btn-outline' onClick={()=>navigate("./about")}>About Me</button>
+<button className='btn-contain' onClick={()=>navigate("./blog")}>Read Blogs</button>
+  
+      </div>
+      </div>
+      </div>
   )
-}
+}  
+      
 
-export default withLayout(Home)
+export default withLayout (Home)
